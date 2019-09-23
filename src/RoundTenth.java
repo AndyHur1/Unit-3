@@ -4,19 +4,16 @@ public class RoundTenth
 {
     public static void main(String[] args)
     {
-     Double NUM_1;
-     Double NUM_2;
-     Double NUM_3;
-     Double NUM_4;
+
      Scanner DUDE = new Scanner (System.in);
      System.out.println("Decimal Number?");
-     NUM_2 = DUDE.nextDouble();
-     NUM_2 = NUM_1 * 10;
-     NUM_2= NUM_3 + 0.5;
-     
+     double NUM_1 = DUDE.nextDouble();
+     double NUM_2 = NUM_1 * 10;
+     double NUM_3 = NUM_2 + 0.5;
+     double NUM_4 = (int) NUM_3;
+     double answer = NUM_4 / 10;
 
-     NUM_2 = (Double) ();
-     System.out.println(NUM_1+" rounded to the nearest tenth is "+NUM_2);
+     System.out.println(NUM_1+" rounded to the nearest tenth is "+answer);
 
 
 
