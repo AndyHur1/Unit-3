@@ -4,6 +4,7 @@ public class CorrectChange {
 
     public static void main(String[] args){
         /*Andy Hur*/
+        /*9.24.2019*/
         /*This program will give you changes with dollars, quarters, dimes, nickels, and pennies based on how much money you inserted*/
         Scanner DRINK = new Scanner(System.in);
         System.out.println("Please enter a whole number of cents");
