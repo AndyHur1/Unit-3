@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class SquareRoot {
+    /*Andy Hur*/
+    /*10.16.2019*/
     public static void main(String[] args){
         Scanner word = new Scanner(System.in);
         System.out.print("Enter your word: ");
